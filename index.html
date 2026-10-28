@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>マーケット定点観測</title>
+<style>
+  body { margin: 0; background: #0b1726; color: #e8eef6; font-family: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", sans-serif; line-height: 1.8; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { color: #ffc440; font-size: 2rem; margin-bottom: 0.2em; }
+  h2 { border-left: 6px solid #ffc440; padding-left: 10px; margin-top: 2em; font-size: 1.25rem; }
+  a { color: #7fd8c8; }
+  .note { color: #96a8c4; font-size: 0.9rem; }
+  li { margin: 0.3em 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>マーケット定点観測</h1>
+  <p>日本株・米国株・為替・暗号資産・人気の投資信託の動きを、毎日決まった時間に、決まった形でお届けする YouTube チャンネルです。</p>
+  <p><a href="https://www.youtube.com/@teitenkansoku">YouTube チャンネル</a></p>
+
+  <h2>番組</h2>
+  <ul>
+    <li><b>朝の定点観測</b>（火〜土の朝）: 前日の米国市場、シカゴ日経先物とADRで見る寄り付きの目安、業種別の騰落、為替、暗号資産、きょうの予定</li>
+    <li><b>夜の定点観測</b>（月〜金の夜）: その日の東京市場、欧州株と米国株先物、為替、暗号資産、今夜とあすの予定</li>
+    <li><b>投信の定点観測</b>（月〜金の夜）: 人気の投資信託の基準価額と、値動きの理由（株価の分と為替の分）</li>
+  </ul>
+
+  <h2>作り方</h2>
+  <p>動画は、公開されている市場データをもとに、プログラムでチャートと画面を作り、AI で原稿と読み上げ音声を作成しています。
+     出典は各動画の概要欄に記載しています。内容に誤りがある場合があります。</p>
+  <p>このサイトのアプリケーション（Google Cloud プロジェクト）は、運営者が自分の YouTube チャンネルに動画・サムネイル・字幕をアップロードするためだけに、YouTube Data API を使用します。</p>
+
+  <h2>ご注意</h2>
+  <p>本チャンネルの動画は情報提供を目的としたもので、特定の銘柄・ファンドの売買を勧めるものではありません。投資の判断はご自身でお願いします。</p>
+
+  <p><a href="privacy.html">プライバシーポリシー</a></p>
+  <p class="note">お問い合わせ: <span class="mail" data-u="ainyuse" data-d="gmail.com">ainyuse（アット）gmail.com</span></p>
+</main>
+<script>
+  // 迷惑メール対策: アドレスを文字のまま書かず、開いたときに組み立てる
+  document.querySelectorAll(".mail").forEach(function (el) {
+    var a = el.dataset.u + "@" + el.dataset.d;
+    el.innerHTML = '<a href="mailto:' + a + '">' + a + "</a>";
+  });
+</script>
+</body>
+</html>
