@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>利用規約｜マーケット定点観測</title>
+<style>
+  body { margin: 0; background: #0b1726; color: #e8eef6; font-family: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", sans-serif; line-height: 1.8; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { color: #ffc440; font-size: 1.6rem; }
+  h2 { border-left: 6px solid #ffc440; padding-left: 10px; margin-top: 2em; font-size: 1.15rem; }
+  a { color: #7fd8c8; }
+  .note { color: #96a8c4; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>利用規約</h1>
+  <p class="note">制定日: 2026年10月29日</p>
+
+  <h2>1. 対象</h2>
+  <p>YouTube チャンネル「マーケット定点観測」（以下「本チャンネル」）と、本チャンネルの運営者が動画の投稿に使うアプリケーション（Google Cloud プロジェクト「market-news」、以下「本アプリ」）に適用します。</p>
+
+  <h2>2. YouTube API Services の利用</h2>
+  <p>本アプリは YouTube API Services を使用しています。本アプリを通じて YouTube を利用することにより、
+    <a href="https://www.youtube.com/t/terms">YouTube 利用規約</a> に同意したものとみなされます。
+    個人情報の扱いは <a href="privacy.html">本チャンネルのプライバシーポリシー</a> と
+    <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a> に従います。</p>
+  <p>本アプリは、運営者が自分の YouTube チャンネルに動画・サムネイル・字幕をアップロードするためだけに使い、ほかの人に提供しません。</p>
+
+  <h2>3. 動画の内容</h2>
+  <ul>
+    <li>動画は公開されている市場データをもとに、プログラムと AI で作成しています。内容の正確さは保証しません。</li>
+    <li>動画は情報提供を目的としたもので、特定の銘柄・ファンドの売買を勧めるものではありません。投資の判断はご自身でお願いします。</li>
+    <li>動画の内容をもとにした判断で生じた損害について、運営者は責任を負いません。</li>
+  </ul>
+
+  <h2>4. 変更</h2>
+  <p>この規約を変更するときは、このページを更新します。</p>
+
+  <h2>5. お問い合わせ</h2>
+  <p><span class="mail" data-u="ainyuse" data-d="gmail.com">ainyuse（アット）gmail.com</span></p>
+
+  <p><a href="index.html">トップへ戻る</a>　<a href="privacy.html">プライバシーポリシー</a></p>
+
+  <h2 lang="en">Terms of Service (English summary)</h2>
+  <div lang="en">
+    <p>This application uses YouTube API Services. By using YouTube through this application, you are agreeing to be bound by the
+      <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. The application is used only by the channel operator to upload
+      videos, thumbnails and captions to the operator's own channel. Videos are for information only and are not investment advice.</p>
+  </div>
+</main>
+<script>
+  // 迷惑メール対策: アドレスを文字のまま書かず、開いたときに組み立てる
+  document.querySelectorAll(".mail").forEach(function (el) {
+    var a = el.dataset.u + "@" + el.dataset.d;
+    el.innerHTML = '<a href="mailto:' + a + '">' + a + "</a>";
+  });
+</script>
+</body>
+</html>
